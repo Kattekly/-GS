@@ -1,0 +1,20 @@
+1
+var drawCats = function (howManyTimes) {
+ for (var i = 0; i < howManyTimes; i++) {
+ console.log(i + " =^.^=");
+ }
+};
+drawCats(100);
+
+2
+var fifthLetter = function (name) {
+if (name.length < 5) {
+return;
+ }
+ return "Пятая буква: " + name[4] + ".";
+};
+fifthLetter("Андрей");
+
+'Пятая буква: е.'
+fifthLetter("Катя");
+undefined
