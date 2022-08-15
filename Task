@@ -18,3 +18,14 @@ fifthLetter("Андрей");
 'Пятая буква: е.'
 fifthLetter("Катя");
 undefined
+
+3
+function add (a, b) {
+  return a + b;
+};
+
+function multiply (a, b) {
+  return a * b;
+};
+
+add(multiply(36325, 9824), 777);
