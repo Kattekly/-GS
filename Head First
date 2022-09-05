@@ -181,3 +181,13 @@ function printAndGetHighScore(scores) {
  }
  return highScore;
 }
+
+function getBestResults(scores, highScore) {
+ var bestSolutions = [];
+ for (var i = 0; i < scores.length; i++) {
+ if (scores[i] == highScore) {
+ bestSolutions.push(i);
+ }
+ }
+ return bestSolutions;
+ }
