@@ -167,3 +167,17 @@ for (var i = 0; i < scores.length; i++) {
  }
 }
 console.log("Solutions with the highest score: " + bestSolutions);
+
+8
+function printAndGetHighScore(scores) {
+ var highScore = 0;
+ var output;
+ for (var i = 0; i < scores.length; i++) {
+ output = "Bubble solution #" + i + " score: " + scores[i];
+ console.log(output);
+ if (scores[i] > highScore) {
+ highScore = scores[i];
+ }
+ }
+ return highScore;
+}
