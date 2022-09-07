@@ -249,3 +249,9 @@ var chevy = {
  convertible: false,
  mileage: 1021
 };
+if (fiat.year < 1965) {
+ classic = true;
+}
+for (var i = 0; i < fiat.passengers; i++) {
+ addPersonToCar();
+}
