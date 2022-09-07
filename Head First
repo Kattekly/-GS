@@ -238,3 +238,14 @@ function getMostCostEffectiveSolution(scores, costs, highscore) {
 }
 var mostCostEffective = getMostCostEffectiveSolution(scores, costs, highscore);
 console.log("Bubble Solution #" + mostCostEffective + " is the most cost effective");
+
+6
+var chevy = {
+ make: "Chevy",
+ model: "Bel Air",
+ year: 1957,
+ color: "red",
+ passengers: 2,
+ convertible: false,
+ mileage: 1021
+};
